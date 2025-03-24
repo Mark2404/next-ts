@@ -1,0 +1,18 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: #d12222;
+    border-bottom: 2px solid #b92020;
+
+    .title {
+        font-size: 24px;
+        font-weight: bold;
+        color: #333;
+    }
+
+    .search-input {
+        width: 250px;
+    }
+}
