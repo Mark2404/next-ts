@@ -29,7 +29,7 @@ const Home = () => {
             <div className="user-list">
                 {selectedUser ? (
                     <Link href={`/users/${selectedUser.id}`} className="user-card">
-                        <UserOutlined style={{ fontSize: '48px' }} />
+                        <UserOutlined style={{ fontSize: '47px' }} />
                         <h2>{selectedUser.name}</h2>
                         <p>{selectedUser.email}</p>
                     </Link>
